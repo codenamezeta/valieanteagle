@@ -1,0 +1,32 @@
+{
+    "name": "genial",
+    "version": "2.3.0",
+    "description": "Genial - React Next Multi-Niche Landing Templates",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "less": "^3.13.1",
+        "mixitup": "^3.3.1",
+        "next": "^11.0.1",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-accessible-accordion": "^3.3.4",
+        "react-anchor-link-smooth-scroll": "^1.0.12",
+        "react-countup": "^4.4.0",
+        "react-dom": "^17.0.2",
+        "react-image-lightbox": "^5.1.4",
+        "react-modal-video": "^1.2.8",
+        "react-owl-carousel3": "^2.2.5",
+        "react-preloading-screen": "^1.0.2",
+        "react-sweet-progress": "^1.1.2",
+        "react-visibility-sensor": "^5.1.1",
+        "sass": "^1.35.2",
+        "wowjs": "^1.1.3"
+    }
+}

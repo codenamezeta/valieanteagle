@@ -1,0 +1,32 @@
+$main-color: #ff3366;
+$white-color: #ffffff;
+
+ul.social-icons {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+
+  li {
+    display: inline-block;
+    margin-left: 5px;
+
+    a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid #ffe8e6;
+      color: #646464;
+      border-radius: 50%;
+      text-align: center;
+
+      &:hover,
+      &:focus {
+        color: $white-color;
+        background-color: $main-color;
+        transform: translateY(-5px);
+        border-color: $main-color;
+      }
+    }
+  }
+}
